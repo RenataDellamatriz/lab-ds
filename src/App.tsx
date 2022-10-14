@@ -53,18 +53,23 @@ export function App() {
           </Text>
         </label>
 
-        <Button type="submit" className='mt-4'>Entrar na plataforma</Button>
+        <Button type="submit" className="mt-4">
+          Entrar na plataforma
+        </Button>
       </form>
 
-      <footer className='flex flex-col items-center gap-4 mt-8'>
-        <Text asChild size='sm'>
-        <a href="" className='text-gray-400 underline'>Esqueceu sua senha?</a>
+      <footer className="flex flex-col items-center gap-4 mt-8">
+        <Text asChild size="sm">
+          <a href="" className="text-gray-400 underline">
+            Esqueceu sua senha?
+          </a>
         </Text>
 
-        <Text asChild size='sm'>
-        <a href="" className='text-gray-400 underline'>Não possui contar? Crie uma agora.</a>
+        <Text asChild size="sm">
+          <a href="" className="text-gray-400 underline">
+            Não possui contar? Crie uma agora.
+          </a>
         </Text>
-
       </footer>
     </div>
   );
